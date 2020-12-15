@@ -17,7 +17,8 @@
   "globals": {
     "module": true,
     "React": true,
-    "react": true
+    "react": true,
+    "JSX": true
   },
   "rules": { 
     "no-console": 1,
