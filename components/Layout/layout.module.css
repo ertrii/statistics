@@ -13,13 +13,14 @@
 
 .Layout-nav{
   background-color: #3569FD;
-  height: 50px;
+  height: 75px;
   width: 100%;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  font-size: 24px;
 }
 
 .main{

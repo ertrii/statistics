@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import FilterGraphics from '../Filters/FilterGraphics'
 import { PropsLayout } from './layout.interface'
 import Styles from './layout.module.css'
