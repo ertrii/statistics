@@ -1,0 +1,32 @@
+.Layout {
+  background-color: white;
+  position: relative;
+  width: 100%;
+}
+
+.Layout-filters{
+  border-right: 3px solid #3569FD;
+  min-width: 350px;
+  position: fixed;
+  height: 100%;
+}
+
+.Layout-nav{
+  background-color: #3569FD;
+  height: 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.main{
+  width: 100%;
+  padding-left: 350px;
+}
+
+.main .content{
+  padding: 5em;
+}

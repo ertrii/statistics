@@ -6,8 +6,9 @@ export default function LineChart() {
       label: '# of Votes',
       data: [1, 12, 19, 3, 5, 2, 3],
       fill: true,
-      backgroundColor: 'rgb(255, 99, 132)',
-      borderColor: 'rgba(255, 99, 132, 0.2)',
+      backgroundColor: 'rgb(53, 105, 253)',
+      borderColor: 'rgba(53, 105, 253, 0.2)',
+      borderWidth: 10,
     },
   ]
 
@@ -23,9 +24,11 @@ export default function LineChart() {
     },
   }
 
+  const labels = ['1', '2', '3', '4', '5', '6']
+
   return (
     <div>
-      <Line data={{ datasets, labels: ['1', '2', '3', '4', '5', '6'] }} options={options} />
+      <Line data={{ datasets, labels }} options={options} />
     </div>
   )
 }

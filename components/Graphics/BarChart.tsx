@@ -43,14 +43,6 @@ const BarChart = () => (
   <>
     <div className="header">
       <h1 className="title">Vertical Bar Chart</h1>
-      <div className="links">
-        <a
-          className="btn btn-gh"
-          href="https://github.com/reactchartjs/react-chartjs-2/blob/react16/example/src/charts/VerticalBar.js"
-        >
-          Github Source
-        </a>
-      </div>
     </div>
     <Bar data={data} options={options} />
   </>
