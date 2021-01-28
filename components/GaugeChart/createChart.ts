@@ -7,6 +7,7 @@ export default function createChart(ref: React.RefObject<HTMLDivElement>, data: 
   const width: number = 450
   const height: number = 450
   const radius = Math.min(width, height) / 2
+  console.log(radius, data)
 
   const svg = el.append('svg')
   svg.attr('width', width)
