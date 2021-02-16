@@ -1,10 +1,11 @@
 import React from 'react'
 import Start from '../containers/Home/Start'
-import Slide2 from '../containers/Home/Slide2'
+// import Slide2 from '../containers/Home/Slide2'
+import Slide8 from '../containers/Home/Slide8'
 import Improvements from '../containers/Home/Improvements'
 //  import Slide3 from '../containers/Home/Slide3'
 // import Slide4 from '../containers/Home/Slide4'
-import Investigation from '../containers/Home/Investigation'
+// import Investigation from '../containers/Home/Investigation'
 import EndSlide from '../containers/Home/EndSlide'
 
 export default function Home() {
@@ -16,12 +17,13 @@ export default function Home() {
   return (
     <>
       <Start />
-      <Slide2 />
+      <Slide8 />
+      {/* <Slide2 /> */}
       {/* <Slide3 /> */}
       {/* <Slide4 /> */}
       {/* <Slide5 /> */}
       <Improvements />
-      <Investigation />
+      {/* <Investigation /> */}
       <EndSlide />
     </>
   )

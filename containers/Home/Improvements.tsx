@@ -13,26 +13,17 @@ export default function Improvements() {
             </div>
             <ul>
               <li className="mb-1">
-                Redity migró a Typescript y se optimizó. Tambien trajo nuevas funcionalidades.{' '}
-                <a href="https://www.npmjs.com/package/redity">redity - npm</a>
+                Se puso a prueba la nueva estructura del controller Controller
               </li>
               <li className="mb-1">
-                Se definió la estructura del nuevo proyecto para los servicios, desarrollado en
-                TypeScript.{' '}
+                Se crearon los servicios y tipado necesarios para el sprint
                 <a href="https://gitlab.com/aventuratech/erp_web_service">ERP Web Service</a>
               </li>
-              <li className="mb-1">Dos nuevas librerías en camino:</li>
-              <ul>
-                <li className="mb-1">Sttates, para store.</li>
-                <li className="mb-1">Fter, para las queries de las peticiones.</li>
-              </ul>
+              <li>
+                Se empezó a usar la nueva versión de Redity
+                <a href="https://www.npmjs.com/package/redity">redity - npm</a>
+              </li>
             </ul>
-          </Col>
-          <Col sm={6}>
-            <img style={{ width: '100%' }} src="images/carbon.png" />
-          </Col>
-          <Col sm={6}>
-            <img style={{ width: '100%' }} src="images/carbon2.png" />
           </Col>
         </Row>
       </Container>

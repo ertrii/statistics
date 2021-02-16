@@ -9,14 +9,16 @@ export default function Start() {
         <Row>
           <Col sm={5}>
             <div className="header mb-5">
-              <h1 className="title shadow text-white bz-primary pl-3 pb-2 rounded">Sprint 6</h1>
+              <h1 className="title shadow text-white bz-primary pl-3 pb-2 rounded">Sprint 8</h1>
             </div>
             <ul>
-              <li className="mb-1">Creación y Edición de Requisiciones</li>
-              <li className="mb-1">Exportación e Impresión</li>
-              <li className="mb-1">DatePicker Range</li>
-              <li className="mb-1">Test de experimentación</li>
-              <li className="mb-1">Mejoras otras librerías</li>
+              <li className="mb-1">Listado de Bodegas</li>
+              <li className="mb-1">Creación y Edición de Bodegas</li>
+              <li className="mb-1">Activación y Desactivación de Bodegas</li>
+              <li className="mb-1">Tipado de respuestas</li>
+              <li className="mb-1">Servicios de Bodegas</li>
+              <li className="mb-1">Testing Library</li>
+              <li className="mb-1">Reestructuración de Categorías</li>
             </ul>
           </Col>
           <Col sm={7}>
