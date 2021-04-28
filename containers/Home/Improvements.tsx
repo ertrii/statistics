@@ -12,9 +12,7 @@ export default function Improvements() {
               <h1 className="title shadow text-white bz-primary pl-3 pb-2 rounded">Mejoras</h1>
             </div>
             <ul>
-              <li className="mb-1">
-                Se puso a prueba la nueva estructura del controller Controller
-              </li>
+              <li className="mb-1">Se puso a prueba la nueva estructura del Controller</li>
               <li className="mb-1">
                 Se crearon los servicios y tipado necesarios para el sprint
                 <a href="https://gitlab.com/aventuratech/erp_web_service">ERP Web Service</a>

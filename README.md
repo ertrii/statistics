@@ -1,1 +1,11 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Retrospectiva
+
+* Inicio
+* Avances
+* Mejoras
+* Problemas
+* Sonarqube
+* Wakatime
+* Aportes
+* Investigación
+* Lo que se viene

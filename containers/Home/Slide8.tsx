@@ -3,9 +3,9 @@ import Viewport from '../../components/Viewport'
 import { Col, Container, Row } from 'react-bootstrap'
 import CountChart from '../../components/CountChart'
 
-export default function Slide8() { 
-return (
-  <Viewport color="smoke">
+export default function Slide8() {
+  return (
+    <Viewport color="smoke">
       <Container>
         <Row>
           <Col sm={12}>
@@ -85,7 +85,6 @@ return (
               </Col>
             </Row>
           </Col>
-
           <Col sm={5} className="mt-5">
             <div className="header mb-4">
               <h3 className="title">Activar y Desactivar Bodegas</h3>
@@ -122,5 +121,5 @@ return (
         </Row>
       </Container>
     </Viewport>
-)
+  )
 }

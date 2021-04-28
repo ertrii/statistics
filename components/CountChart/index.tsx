@@ -27,7 +27,7 @@ export default function CountChart(props: PropsCountChart) {
         fill={colors[props.color]}
         x="50"
         y="60"
-        text-anchor="middle"
+        textAnchor="middle"
         fontSize="28"
         fontWeight="bold"
       >

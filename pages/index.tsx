@@ -1,29 +1,27 @@
 import React from 'react'
-import Start from '../containers/Home/Start'
-// import Slide2 from '../containers/Home/Slide2'
-import Slide8 from '../containers/Home/Slide8'
-import Improvements from '../containers/Home/Improvements'
-//  import Slide3 from '../containers/Home/Slide3'
-// import Slide4 from '../containers/Home/Slide4'
-// import Investigation from '../containers/Home/Investigation'
+import Start from '../components/Start'
+import Advances from '../containers/Sprint11/Advances'
+import Improvements from '../containers/Sprint11/Improvements'
+import ERPWebComponent from '../containers/Sprint11/ERPWebComponent'
+import GraphWakatimeGeneral from '../containers/Sprint11/GraphWakatimeGeneral'
+import GraphWakatimeERP from '../containers/Sprint11/GraphWakatimeERP'
+import ItsComming from '../containers/Sprint11/ItsComming'
+import SonarQube from '../containers/Sprint11/SonarQube'
+import Layout from '../containers/Sprint11/Layout'
 import EndSlide from '../containers/Home/EndSlide'
 
 export default function Home() {
-  // React.useEffect(() => {
-  //   document.addEventListener('scroll', function () {
-  //     window.scrollTo(0, window.innerWidth)
-  //   })
-  // }, [])
   return (
     <>
-      <Start />
-      <Slide8 />
-      {/* <Slide2 /> */}
-      {/* <Slide3 /> */}
-      {/* <Slide4 /> */}
-      {/* <Slide5 /> */}
+      <Start title="Sprint 11" />
+      <Advances />
       <Improvements />
-      {/* <Investigation /> */}
+      <Layout />
+      <ERPWebComponent />
+      <SonarQube />
+      <GraphWakatimeGeneral />
+      <GraphWakatimeERP />
+      <ItsComming />
       <EndSlide />
     </>
   )
